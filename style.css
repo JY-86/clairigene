@@ -71,6 +71,7 @@ nav ul li {
 }
 
 
+/* Covers */
 div {
     padding: 0px;
     margin: 0px;
@@ -95,8 +96,8 @@ div {
 
 .main {
     background-image: url(test-tubes.jpg);
+    height: 47vh;
 }
-
 
 .info-cover {
     padding: 0px;
@@ -108,15 +109,11 @@ div {
     background-color: white;
 }
 
-.zone {
-    background-color: lightblue;
-    border: black 1px solid;
-    border-radius: 5px;
-    min-height: 20px;
-    min-width: 20px;
+.back-cover {
+    background-image: url(lab-equipment.jpg);
 }
 
-
+/* Introduction */
 .introduction {
     grid-column: span 2;
     display: flex;
@@ -130,9 +127,10 @@ div {
 }
 
 .white-transparent-zone {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255);
 }
 
+/* Focus */
 .focus {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -173,6 +171,7 @@ div {
     object-fit: cover;
 }
 
+/* Technology */
 .our-technology {
     display: flex;
     justify-content: center;
@@ -186,17 +185,15 @@ div {
 
 .our-technology-content {
     padding: 50px;
-    max-width: 800px;
+    width: 800px;
     text-align: center;
     margin: 75px 0px;
 
     background-color: white;
 }
 
-.get-in-touch {
 
-}
-
+/* Get in touch */
 .get-in-touch-content {
     text-align: center;
     line-height: 1.75rem;
@@ -218,6 +215,11 @@ div {
     text-decoration: none;
 }
 
+.blue-zone {
+    background-color: rgb(168, 220, 255);
+}
+
+/* Footer */
 .footer {
     padding: 7px;
     display: flex;
@@ -231,10 +233,7 @@ div {
     margin: 0px;
 }
 
-.blue-zone {
-    background-color: rgb(168, 220, 255);
-}
-
+/* Map */
 .map {
     width: 100%;
     height: 40vh;
@@ -245,8 +244,4 @@ div {
 .map > iframe {
     width: 100%;
     height: 100%;
-}
-
-.back-cover {
-    background-image: url(lab-equipment.jpg);
 }
