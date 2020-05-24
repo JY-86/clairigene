@@ -1,0 +1,252 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    /* line-height: 0px; */
+
+    scroll-behavior: smooth;
+}
+
+/* Fonts */
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.extra-large {
+    font-size: 5rem;
+    line-height: 80px;
+}
+
+/* Navigation */
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(231, 231, 231);
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 3px 15px 3px 15px;
+}
+
+.title {
+    margin-left: 50px;
+}
+
+
+div {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cover {
+    height: 60vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.static-cover {
+    height: 60vh;
+    background-attachment: local;
+    background-size: cover;
+}
+
+.main {
+    background-image: url(test-tubes.jpg);
+}
+
+
+.info-cover {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    grid-template-rows: repeat(2, auto);
+
+    background-color: white;
+}
+
+.zone {
+    background-color: lightblue;
+    border: black 1px solid;
+    border-radius: 5px;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+
+.introduction {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.introduction-content {
+    padding: 40px 40px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.white-transparent-zone {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.focus {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.image-holder {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus-info {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus-info > div {
+    width: 80%;
+    height: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.our-technology {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+    height: auto;
+
+    background-image: url(test-tubes-2.jpg);
+}
+
+.our-technology-content {
+    padding: 50px;
+    max-width: 800px;
+    text-align: center;
+    margin: 75px 0px;
+
+    background-color: white;
+}
+
+.get-in-touch {
+
+}
+
+.get-in-touch-content {
+    text-align: center;
+    line-height: 1.75rem;
+    padding: 80px 10px;
+
+    color: white;
+
+    overflow-wrap: break-word;
+}
+
+.get-in-touch-content > a {
+    color: white;
+    transition: ease-in 0.2s;
+}
+
+.get-in-touch-content > a:hover {
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 155, 216) ;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > p {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0px;
+}
+
+.blue-zone {
+    background-color: rgb(168, 220, 255);
+}
+
+.map {
+    width: 100%;
+    height: 40vh;
+    border-top: 2px solid rgb(0, 191, 255);
+    border-bottom: 2px solid rgb(0, 191, 255);
+}
+
+.map > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.back-cover {
+    background-image: url(lab-equipment.jpg);
+}
