@@ -52,13 +52,29 @@ a:hover {
     line-height: 80px;
 }
 
-/* Navigation */
+/* Header and Navigation */
 .header {
     display: flex;
     flex-direction: column;
 }
 
+.logo-bar {
+    padding: 10px 20px;
+    display: inline-flex;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;   
+}
+
+.title {
+    margin: 0px 0px 0px 10px;
+    align-self: flex-end;
+}
+
 nav {
+    float: none;
     background-color: rgb(231, 231, 231);
 }
 
@@ -76,10 +92,6 @@ nav ul li {
     nav ul li {
         margin: 3px 8px 3px 8px;
     }
-}
-
-.title {
-    margin-left: 50px;
 }
 
 /* Covers */
